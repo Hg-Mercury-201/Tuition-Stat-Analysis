@@ -23,12 +23,11 @@ def descriptive_statistics():
 
 def scatter_pay_v_STEM():
     
-    fig = plt.figure()
     ax = plt.axes()
 
     ax.plot(salary_df['early_career_pay'],salary_df['stem_percent'],'o')
 
-    plt.title('Pay Versus STEM %')
+    plt.title(r'Pay Versus STEM %')
     plt.xlabel('Pay')
     plt.ylabel('% STEM')
     plt.show()
