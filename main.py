@@ -31,6 +31,17 @@ def scatter_pay_v_STEM():
     plt.xlabel('Pay')
     plt.ylabel('% STEM')
     plt.show()
+
+def out_of_state_tuition_bar():
+
+    ax = tuition_df.plot.bar(x="name", y="out_of_state_total", rot=0, title="Out of State Tuition Total Cost")
+    plt.show(block=True)
+
+def in_state_tuition_bar():
+
+    ax = tuition_df.plot.bar(x="name", y="in_state_total", rot=0, title="In State Tuition Total Cost")
+    plt.show(block=True)
+
     
 
 #define main where functions are run
@@ -55,3 +66,5 @@ if __name__ == "__main__":
     descriptive_statistics()
 
     scatter_pay_v_STEM()
+    out_of_state_tuition_bar()
+    in_state_tuition_bar()
