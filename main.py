@@ -14,6 +14,8 @@ The files that the data for the visualizations are taken from are located in the
 
 The structure of the file is that the analysis is split up into named functions and then run in the if __main__ section
 
+CSV files are from https://www.kaggle.com/jessemostipak/college-tuition-diversity-and-pay 
+
 '''
 
 #set working directory to CSV to access data
