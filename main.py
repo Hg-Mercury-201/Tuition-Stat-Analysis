@@ -19,8 +19,6 @@ def descriptive_statistics():
     print('\nTuition description:\n')
     print(tuition_desc)
 
-     
-
 def scatter_pay_v_STEM():
     
     ax = plt.axes()
@@ -64,7 +62,6 @@ if __name__ == "__main__":
     print(tuition_df)
 
     descriptive_statistics()
-
-    scatter_pay_v_STEM()
     out_of_state_tuition_bar()
     in_state_tuition_bar()
+    scatter_pay_v_STEM()
